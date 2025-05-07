@@ -109,7 +109,7 @@
 &trans      &trans            &trans             &trans             &trans        &trans                                &kp C_NEXT        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS     &kp KP_MINUS
 &trans      &trans            &trans             &trans             &trans        &trans                                &kp C_PREVIOUS    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS      &kp KP_PLUS
 &trans      &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG  &trans        &trans        &trans       &trans     &trans            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER     &kp KP_ENTER
-                                                 &trans             &trans        &trans        &kp ENTER    &kp SPACE  &kp KP_NUMBER_0   &kp KP_NUMBER_0  &kp KP_DOT
+                                                 &trans             &trans        &trans        &kp ENTER    &kp SPACE  &kp KP_NUMBER_0   &kp KP_NUMBER_0  &trans
             >;
         };
     };
