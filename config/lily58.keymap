@@ -67,8 +67,6 @@
 &kp LSHFT  &kp Z   &kp X   &kp C     &kp V     &kp B        &kp EQUAL    &kp RBKT   &kp N         &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
                            &kp LALT  &kp LGUI  &lt 1 GRAVE  &kp ENTER    &kp SPACE  &lt 2 DELETE  &kp BSPC  &kp RGUI
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         lower_layer {
@@ -99,11 +97,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans     &trans  &trans  &trans   &trans   &trans                     &trans       &kp INS     &kp HOME  &kp PAGE_UP    &trans    &trans
-&kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                     &trans       &kp DELETE  &kp UP    &kp PAGE_DOWN  &trans    &trans
-&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans       &kp LEFT    &kp DOWN  &kp RIGHT      &trans    &trans
-&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &kp KP_PLUS  &kp MINUS   &kp END   &kp LBKT       &kp RBKT  &kp BSLH
-                           &trans   &trans   &trans   &trans    &trans  &trans       &trans      &trans
+&trans     &trans  &trans  &trans   &trans   &trans                     &trans  &kp INS     &kp HOME  &kp PAGE_UP    &trans    &trans
+&kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                     &trans  &kp DELETE  &kp UP    &kp PAGE_DOWN  &trans    &trans
+&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans  &kp LEFT    &kp DOWN  &kp RIGHT      &trans    &trans
+&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &trans  &trans      &kp END   &kp LBKT       &kp RBKT  &kp BSLH
+                           &trans   &trans   &trans   &trans    &trans  &trans  &trans      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
